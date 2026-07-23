@@ -17,7 +17,7 @@ Workflow-CI/
 
 ## Sebelum push ke GitHub
 
-1. Buat repository baru **Public** bernama `Workflow-CI-Faiz` di akun GitHub [ANFRB](https://github.com/ANFRB).
+1. Buat repository baru **Public** bernama `Workflow-CI-Faiz` di akun GitHub [FaizRB](https://github.com/FaizRB).
 2. Tambahkan GitHub Actions secrets pada repo (Settings → Secrets and variables → Actions):
    - `DOCKERHUB_USERNAME` → username Docker Hub Anda (huruf kecil semua, mis. `anfrb`).
    - `DOCKERHUB_TOKEN` → Access Token dari Docker Hub (Account Settings → Security → New Access Token), **bukan password**.
@@ -33,4 +33,4 @@ mlflow run . --env-manager=local
 
 ## Catatan Docker Hub
 
-Username Docker Hub **harus huruf kecil**. Jika akun GitHub Anda `ANFRB`, gunakan username Docker Hub yang sesuai (mis. `anfrb`) — ini yang harus diisi pada secret `DOCKERHUB_USERNAME`.
+Username Docker Hub **harus huruf kecil**. Jika akun GitHub Anda `FaizRB`, gunakan username Docker Hub yang sesuai (mis. `anfrb`) — ini yang harus diisi pada secret `DOCKERHUB_USERNAME`.
