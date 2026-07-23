@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI-Faiz/Workflow-CI-Faiz/MLProject/mlruns/0/f2c12cf0e92949d5b1eb9fc86612913f/artifacts
+end_time: 1784781936915
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2c12cf0e92949d5b1eb9fc86612913f
+run_name: debonair-stork-888
+run_uuid: f2c12cf0e92949d5b1eb9fc86612913f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1784781926286
+status: 3
+tags: []
+user_id: runner
