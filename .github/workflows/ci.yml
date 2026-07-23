@@ -68,7 +68,8 @@ jobs:
         run: |
           mlflow models build-docker \
             --model-uri "runs:/${{ env.RUN_ID }}/model" \
-            --name "${{ env.DOCKER_IMAGE_NAME }}"
+            --name "${{ env.DOCKER_IMAGE_NAME }}" \
+            --env-manager local
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
